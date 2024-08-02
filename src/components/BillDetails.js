@@ -39,6 +39,7 @@ const BillDetails = ({ onAddItem }) => {
                 type="number"
                 value={quantity}
                 onChange={(e) => setQuantity(e.target.value)}
+                min={1}
             />
             </div>
             <div className='m-2'>
@@ -47,6 +48,7 @@ const BillDetails = ({ onAddItem }) => {
                 type="number"
                 value={price}
                 onChange={(e) => setPrice(e.target.value)}
+                min={0}
             />
             </div>
             <div>
