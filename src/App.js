@@ -11,7 +11,7 @@ import { Document, Page, Text, View, StyleSheet, PDFDownloadLink } from '@react-
 
 const styles = StyleSheet.create({
     page: {
-        padding: 20,
+        padding: 25,
     },
     table: {
         display: 'table',
